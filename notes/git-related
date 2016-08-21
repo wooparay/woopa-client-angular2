@@ -1,0 +1,11 @@
+*  check the user for the git upload
+A. cat the .git/config file and check the [remote "origin"] url property, 
+   you might need to add back the "user" to the url
+   e.g. url = https://wooparay@github.com/wooparay/woopa-server.git
+
+*  opening a branch
+A. I have not found a way to create a local branch and then push it to the remote though; 
+   by the meantime, I create on the git website
+D. as by git 1.7, a new option could fulfill the needs
+   git checkout -b <branch>
+   git push -u origin <branch>
