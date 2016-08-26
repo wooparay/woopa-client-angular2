@@ -1,0 +1,39 @@
+{
+  "name": "woopa-client-angular2",
+  "version": "1.0.0",
+  "description": "woopa client (angular2) - html weaver for a CMS website",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.17",
+    "es6-promise": "^3.2.1",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://wooparay@github.com/wooparay/woopa-client-angular2.git"
+  },
+  "keywords": [
+    "woopa",
+    "client",
+    "angular2",
+    "html",
+    "weaver",
+    "cms"
+  ],
+  "author": "json wong",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wooparay/woopa-client-angular2/issues"
+  },
+  "homepage": "https://github.com/wooparay/woopa-client-angular2#readme"
+}
