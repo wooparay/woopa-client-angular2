@@ -1,5 +1,8 @@
 <html>
     <head>
+        <!-- set base href for angular router to create paths for routing -->
+        <base href="/">
+
         <title>weaver landing page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,11 +17,15 @@
         <script src="node_modules/reflect-metadata/Reflect.js"></script>
         <script src="node_modules/systemjs/dist/system.src.js"></script>
 
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        
         <!-- 2. Configure SystemJS -->
         <script src="systemjs.config.js"></script>
         <script>
             System.import('weaver').catch(function(err){ console.error(err); });
         </script>
+        
+        
     </head>
 
     <!-- 3. Display the application -->

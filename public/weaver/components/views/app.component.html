@@ -1,2 +1,13 @@
-<h1>this is 1st app</h1>
+<h1 id='h1_test' >this is 1st app</h1>
 <h2>do you like it?</h2>
+<span>{{testingTitle}} => value from the appComponent class~</span>; 
+<div style="color: #aaa;">
+    non testing on 2-way binding
+    <input [(ngModel)]='testingName' 
+           [class.form-control]='true'
+           id='txt_test'
+           placeholder='edit to see the 2way binding feature'>
+     ==> value of the variable (update at the same time) : {{testingName}}
+    <!-- [class.form-control]='condition' = if condition is true, form-control css class will be added -->
+</div>
+    
